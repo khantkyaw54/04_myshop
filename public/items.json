@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "id": "001",
+      "id": "1",
       "name": "MacBook Air M2",
       "image": "/images/item-dammy.webp",
       "price": 164800,
@@ -13,7 +13,7 @@
       "size": "13インチ"
     },
     {
-      "id": "002",
+      "id": "2",
       "name": "無印良品のマグカップ",
       "image": "/images/item-dammy.webp",
       "price": 590,
@@ -25,7 +25,7 @@
       "size": "約330ml"
     },
     {
-      "id": "003",
+      "id": "3",
       "name": "お気に入りのスニーカー",
       "image": "/images/item-dammy.webp",
       "price": 12800,

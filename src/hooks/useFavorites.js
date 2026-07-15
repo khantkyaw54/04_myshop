@@ -1,6 +1,7 @@
 // src/hooks/useFavorites.js
 import { useState, useEffect } from "react";
 
+
 const KEY = "myitems:favorites";
 
 export function useFavorites() {

@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
 import ItemCard from "../components/ItemCard.jsx";
+// src/pages/Home.jsx ※追加：既存のimportの下
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../firebase.js";
+
 
 const INITIAL_COUNT = 9;
 const STEP = 9;
@@ -10,12 +14,10 @@ export default function Home({ favorites, cart }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/items.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setItems(data.items);
-        setLoading(false);
-      });
+    getDocs(collection(db, "items")).then((snapshot) => {
+      setItems(snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
+      setLoading(false);
+    });
   }, []);
 
   if (loading) {
