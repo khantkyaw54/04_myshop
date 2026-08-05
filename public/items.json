@@ -2,39 +2,63 @@
   "items": [
     {
       "id": "1",
-      "name": "MacBook Air M2",
-      "image": "/images/item-dammy.webp",
-      "price": 164800,
-      "category": "ガジェット",
-      "description": "毎日使ってる相棒。軽くて持ち運びやすい。",
+      "name": "The Quiet Mind",
+      "image": "/images/book04.jpg",
+      "price": 2800,
+      "category": "Culture & Language",
+      "description": "A distinctive Burmese-language edition selected for its quiet design and character.",
       "status": "onsale",
-      "code": "MS-001",
-      "color": "ミッドナイト",
-      "size": "13インチ"
+      "code": "NB-001",
+      "color": "Used · Good",
+      "size": "Paperback"
     },
     {
       "id": "2",
-      "name": "無印良品のマグカップ",
-      "image": "/images/item-dammy.webp",
-      "price": 590,
-      "category": "キッチン",
-      "description": "コーヒーもスープもこれ一つ。",
+      "name": "The Starbucks Experience",
+      "image": "/images/book01.jpg",
+      "price": 3200,
+      "category": "Business & Culture",
+      "description": "Five principles for turning everyday service into a memorable experience.",
       "status": "soldout",
-      "code": "MS-002",
-      "color": "白",
-      "size": "約330ml"
+      "code": "NB-002",
+      "color": "Used · Good",
+      "size": "Paperback"
     },
     {
       "id": "3",
-      "name": "お気に入りのスニーカー",
-      "image": "/images/item-dammy.webp",
-      "price": 12800,
-      "category": "ファッション",
-      "description": "通学からちょっとしたお出かけまで。",
+      "name": "The Long Shadow",
+      "image": "/images/book02.jpg",
+      "price": 4000,
+      "category": "Culture & Language",
+      "description": "A vibrant edition with a graphic cover and an inviting, lived-in presence.",
       "status": "onsale",
-      "code": "MS-003",
-      "color": "ホワイト",
-      "size": "26.5cm"
+      "code": "NB-003",
+      "color": "Used · Good",
+      "size": "Paperback"
+    },
+    {
+      "id": "4",
+      "name": "The Lion Within",
+      "image": "/images/book03.jpg",
+      "price": 4000,
+      "category": "Culture & Language",
+      "description": "A bold, illustrated volume for readers drawn to expressive cover art.",
+      "status": "onsale",
+      "code": "NB-004",
+      "color": "Used · Good",
+      "size": "Paperback"
+    },
+    {
+      "id": "5",
+      "name": "Golden Wings",
+      "image": "/images/book05.jpg",
+      "price": 4000,
+      "category": "Culture & Language",
+      "description": "A striking dark edition, chosen for its ornate gold illustration and strong silhouette.",
+      "status": "onsale",
+      "code": "NB-005",
+      "color": "Used · Good",
+      "size": "Paperback"
     }
   ]
 }

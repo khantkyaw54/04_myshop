@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
     <footer className="site-footer">
-      <ul className="site-footer__sns">
+      <div className="site-footer__top">
+        <p className="site-footer__message">A considered<br />place for books.</p>
+        <ul className="site-footer__sns">
         <li>
           <a href="#" aria-label="Instagram">
             IG
@@ -17,8 +19,9 @@ export default function Footer() {
             f
           </a>
         </li>
-      </ul>
-      <p className="site-footer__copy">copyright Myshop 2026</p>
+        </ul>
+      </div>
+      <p className="site-footer__copy">© Burmese Bookshelf 2026 · Independent bookseller</p>
     </footer>
   );
 }
